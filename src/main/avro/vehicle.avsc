@@ -1,0 +1,55 @@
+{
+  "namespace": "com.fretron.Model",
+  "type": "record",
+  "name": "Vehicle",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "driverName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "bodyType",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "chassisType",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "registrationNumber",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "carryingCapacity",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    }
+  ]
+}
